@@ -1,0 +1,73 @@
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.merch {
+  color: blue;
+}
+
+.container {
+  margin-left: 250px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 250px;
+}
+
+h2 {
+  font-size: 25px;
+ margin-left: 250px;
+}
+h3 {
+  font-size: 47px;
+margin-left: 150px;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 400px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+  margin-left: 230px;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #FFD700;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 50px;
+  position: relative;
+  margin-left:290px;
+  margin-top: 5px;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:darkred;
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 80px;
+}
+
+.container {
+  background: #000 url(https://wp-s.ru/wallpapers/15/11/366136410502127/kartinka-abstrakciya-na-golubom-fone.jpg);
+  margin-left:500px;
+}

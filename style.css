@@ -14,15 +14,18 @@ body {
 h1 {
   font-size: 40px;
   margin-left: 250px;
+  color: white;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 35px;
  margin-left: 250px;
+ color: white;
 }
 h3 {
   font-size: 47px;
 margin-left: 150px;
+color: white;
 }
 
   /* Свойства фотографии*/
